@@ -1,0 +1,15 @@
+File type: jpeg            Count: 1          Total Size: 37378 bytes
+  File path: /Volumes/plexshare/Movies/Religious
+File type: bup             Count: 2          Total Size: 59392 bytes
+File type: mp4             Count: 47         Total Size: 17310733547 bytes
+File type: mpg             Count: 32         Total Size: 124033020136 bytes
+File type: ifo             Count: 2          Total Size: 59392 bytes
+File type: m4v             Count: 443        Total Size: 483813892959 bytes
+File type: mkv             Count: 3          Total Size: 842172625 bytes
+File type: vob             Count: 3          Total Size: 1831780352 bytes
+File type: jpg             Count: 17         Total Size: 5191173 bytes
+File type: png             Count: 1          Total Size: 111691 bytes
+  File path: /Volumes/plexshare/Movies/Christmas/Angels
+File type: ds_store        Count: 8          Total Size: 84000 bytes
+File type: db              Count: 1          Total Size: 17920 bytes
+  File path: /Volumes/plexshare/Movies/Christmas/Merry

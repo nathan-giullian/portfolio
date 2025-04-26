@@ -1,0 +1,3 @@
+File type: mp4             Count: 167        Total Size: 60886069848 bytes
+File type: m4v             Count: 551        Total Size: 161262969545 bytes
+File type: ds_store        Count: 12         Total Size: 102448 bytes
