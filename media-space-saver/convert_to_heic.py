@@ -6,9 +6,35 @@ from concurrent.futures import ProcessPoolExecutor
 def convert_file(input_file):
     output_file = os.path.splitext(input_file)[0] + '.heic'
     try:
-        # Use a list with individual arguments to avoid issues with spaces in paths
-        subprocess.run(['magick', input_file, output_file], check=True)
+        # Preserve metadata by NOT using -strip and copying all profiles/tags
+        subprocess.run([
+            'magick', input_file,
+            '-define', 'heic:preserve-orientation=true',
+            '-auto-orient',
+            output_file
+        ], check=True)
         print(f"Converted: {input_file} to {output_file}")
+
+        # Use exiftool to copy all metadata from the original to the new file
+        subprocess.run([
+            'exiftool',
+            '-overwrite_original',
+            '-TagsFromFile', input_file,
+            '-all:all',
+            output_file
+        ], check=True)
+        print(f"Copied metadata from {input_file} to {output_file}")
+
+        # If DateTimeOriginal is empty, set it to CreateDate
+        # subprocess.run([
+        #     'exiftool',
+        #     '-overwrite_original',
+        #     '-if', '$DateTimeOriginal eq ""',
+        #     '-DateTimeOriginal<CreateDate',
+        #     output_file
+        # ], check=True)
+        # print(f"Ensured DateTimeOriginal is set for {output_file}")
+
         os.remove(input_file)
         print(f"Deleted original file: {input_file}")
     except subprocess.CalledProcessError as e:
