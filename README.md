@@ -17,6 +17,9 @@ A Python-based project for web scraping and statistical analysis of LDS scriptur
 ### [Media Space Saver](./media-space-saver/)
 *Media takes up a lot of space and for those who save their files locally, it can get expensive. Save space and money by converting photos and videos to HEIC and .h265 types to save space and retain quality. I used this for my NAS and went from 1.78TB to 1.12TB.*
 
+I have updated the scripts to help migrate Google Photos to iCloud Photos, since the export tool in Google Takeout is terrible. In addition, I plan to add a script in the future that will run all of the separate scripts as one, making it much easier to migrate your photos.
+
+
 ### [Future Project Name](./future-project/)
 *Future projects include training a church agent to help with religious research, an iPhone app, and more home-lab projects.*
 
