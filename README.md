@@ -20,6 +20,15 @@ Media takes up a lot of space and for those who save their files locally, it can
 I have updated the scripts to help migrate Google Photos to iCloud Photos, since the export tool in Google Takeout is terrible. In addition, I plan to add a script in the future that will run all of the separate scripts as one, making it much easier to migrate your photos.
 
 
+### [LEGO App](./lego_app/)
+A set of Python scripts for analyzing and managing your LEGO collection.  
+Features include:
+- Fetching set details and current market values from BrickEconomy
+- Automated CSV updates based on set numbers
+- Easy setup for entering your own LEGO sets
+
+To get started, enter your LEGO set numbers in `input.csv`, install dependencies from `requirements.txt`, set your BrickEconomy API key, and run the scripts. See the [lego_app README](./lego_app/README.md) for details.
+
 ### [Future Project Name](./future-project/)
 *Future projects include training a church agent to help with religious research, an iPhone app, and more home-lab projects.*
 
