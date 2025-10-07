@@ -1,0 +1,144 @@
+{
+    "data": {
+        "retired": true,
+        "set_number": "10236-1",
+        "name": "Ewok Village",
+        "theme": "Star Wars",
+        "subtheme": "Ultimate Collector Series",
+        "year": 2013,
+        "pieces_count": 1990,
+        "minifigs_count": 17,
+        "minifigs": [
+            "sw0011a",
+            "sw0236",
+            "sw0338",
+            "sw0365",
+            "sw0366",
+            "sw0367",
+            "sw0451",
+            "sw0504",
+            "sw0505",
+            "sw0508",
+            "sw0509",
+            "sw0510",
+            "sw0511",
+            "sw0512",
+            "sw0513"
+        ],
+        "availability": "exclusive",
+        "retail_price_us": 249.99,
+        "retail_price_uk": 199.99,
+        "retail_price_ca": 299.99,
+        "retail_price_eu": 249.99,
+        "retail_price_au": 359.99,
+        "ean": "5702014974777",
+        "upc": "673419191425",
+        "released_date": "2013-09-01",
+        "retired_date": "2016-11-29",
+        "current_value_new": 604.61,
+        "current_value_used": 519.99,
+        "current_value_used_low": 475,
+        "current_value_used_high": 623.99,
+        "forecast_value_new_2_years": 723.35,
+        "forecast_value_new_5_years": 863.23,
+        "rolling_growth_lastyear": 8.56,
+        "rolling_growth_12months": 7.23,
+        "price_events_new": [
+            {
+                "date": "2024-01-14",
+                "value": 604.61
+            },
+            {
+                "date": "2023-12-31",
+                "value": 627.74
+            },
+            {
+                "date": "2023-12-18",
+                "value": 577.19
+            },
+            {
+                "date": "2023-12-01",
+                "value": 577.83
+            },
+            {
+                "date": "2023-11-11",
+                "value": 598.9
+            },
+            {
+                "date": "2023-11-03",
+                "value": 609.91
+            },
+            {
+                "date": "2023-10-17",
+                "value": 624.34
+            },
+            {
+                "date": "2023-10-03",
+                "value": 567.68
+            },
+            {
+                "date": "2023-10-01",
+                "value": 559.24
+            },
+            {
+                "date": "2023-09-18",
+                "value": 528.48
+            },
+            {
+                "date": "2023-09-04",
+                "value": 518.89
+            },
+            {
+                "date": "2023-08-15",
+                "value": 520.8
+            }
+        ],
+        "price_events_used": [
+            {
+                "date": "2024-01-16",
+                "value": 519.99
+            },
+            {
+                "date": "2024-01-02",
+                "value": 439.41
+            },
+            {
+                "date": "2023-12-20",
+                "value": 404.03
+            },
+            {
+                "date": "2023-12-02",
+                "value": 404.48
+            },
+            {
+                "date": "2023-11-12",
+                "value": 419.23
+            },
+            {
+                "date": "2023-10-19",
+                "value": 455.76
+            },
+            {
+                "date": "2023-10-10",
+                "value": 403.05
+            },
+            {
+                "date": "2023-07-21",
+                "value": 390.32
+            },
+            {
+                "date": "2023-07-04",
+                "value": 372.58
+            },
+            {
+                "date": "2023-06-23",
+                "value": 385.99
+            },
+            {
+                "date": "2023-06-06",
+                "value": 355.17
+            }
+        ],
+        "currency": "USD"
+    }
+}
